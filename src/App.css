@@ -1,38 +1,181 @@
-.App {
-  text-align: center;
-}
+body {
+  background: rgba(119, 78, 204, 1);
+  background: conic-gradient(
+    from 315deg,
+    rgba(119, 78, 204, 1),
+    rgba(157, 24, 226, 1)
+  );
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+  padding-top: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+.go {
+  height: 534px;
+  width: 600px;
+}
+.qw {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(133, 16, 137, 0.573);
+  display: flex;
+  margin-right: 5px;
+  height: 52px;
+  width: 145px;
+  border-radius: 25px;
+  align-items: center;
+  font-size: 24px;
+  justify-content: center;
+}
+.qw:hover {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.long-break {
+  /* Styles for the Long Break button */
+  background-color: #774ecc;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.long-break.active {
+  /* Styles for the active Long Break button */
+  background-color: #5c1769;
+  color: aliceblue;
+}
+
+.break {
+  /* Styles for the Break button */
+  background-color: #774ecc;
+}
+
+.break.active {
+  /* Styles for the active Break button */
+  background-color: #5c1769;
+  color: aliceblue;
+}
+
+.short-break {
+  /* Styles for the Short Break button */
+  background-color: #774ecc;
+}
+
+.short-break.active {
+  /* Styles for the active Short Break button */
+  background-color: #5c1769;
+  color: aliceblue;
+}
+
+.ki {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ji {
+  width: 350px;
+}
+.lo {
+  display: flex;
+  justify-content: space-around;
+}
+.hi {
+  background: #a4508b;
+  color: whitesmoke;
+  font-size: x-large;
+  border-radius: 6px;
+
+  height: 70px;
+  width: 110px;
+}
+.op {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 23px;
+}
+.hi {
+  background: #5c1769;
+  color: aliceblue;
+  font-size: x-large;
+
+  height: 70px;
+  width: 110px;
+  border-radius: 6px;
+}
+.hi:hover {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.hii {
+  position: absolute;
+
+  top: 83px;
+  right: 460px;
+}
+.popup-overlay {
+  height: 600px;
+  width: 600px;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+
+  display: flex;
+  justify-content: end;
+  align-items: start;
+}
+.ae {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #5c1769;
+  font-style: italic;
+  position: absolute;
+  top: 7px;
+  left: 516px;
+}
+.li {
+  background: #5c1769;
+  color: aliceblue;
+  font-size: x-large;
+  height: 70px;
+  width: 110px;
+  border-radius: 6px;
+}
+.li:hover {
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.yu {
+  display: flex;
+  justify-content: center;
+  padding-right: 10px;
+}
+.kl {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  font-weight:bolder;
+  border: none;
+  color: rgb(14, 11, 11); /* White text */
+  padding: 10px 15px; /* Some padding */
+  font-size: 16px;
+  font: 800;
+  cursor: pointer;
 }
